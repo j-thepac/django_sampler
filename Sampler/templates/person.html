@@ -1,0 +1,13 @@
+{% extends 'base_template.html' %}
+{% block body %} Deepak
+
+<div>
+    {% for i in person %}
+    <tr>
+        <td> {{ i.name }}</td>
+        <td> {{ i.age }}</td>
+    </tr>
+    {%endfor%}
+</div>
+
+{% endblock body %}
