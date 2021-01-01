@@ -28,9 +28,13 @@ open http://127.0.0.1:8000/
     
     
     import os
+    
     INSTALLED_APPS add "PersonApp"
+    
     STATIC_URL ='/static/'
+    
     STATICFILES_DIR=[os.path.join(BASE_DIR,'static'),'/var/www/static/']
+    
     TEMPLATES= ['DIRS': [os.path.join(BASE_DIR,'templates')]
      
 Under urls.py
